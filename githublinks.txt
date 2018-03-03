@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<Title>Main Page</Title>
+<body>
+
+/poojakatte.github.io/WEB%20DESIGN/WEEK1/ASSIGNMENT%204/ASSIGNMENT4.html
+/poojakatte.github.io/WEB%20DESIGN/WEEK2/Pooja_tutorial2_ASSIGNMNET4.html
+/poojakatte.github.io/WEB%20DESIGN/WEEK3/Pooja_tut3_assign4/Pooja_choirtxt.html
+/poojakatte.github.io/WEB%20DESIGN/WEEK4/Pooja_week5_assignemnt4/case4/parktxt.htm
+/poojakatte.github.io/WEB%20DESIGN/WEEK6/case4/conference.html
+/poojakatte.github.io/WEB%20DESIGN/WEEK7/pooja_tut6case4/tutorial6/case4/pc.htm
+/poojakatte.github.io/WEB%20DESIGN/WEEK8/tutorial.07/case4/byso.htm
+/poojakatte.github.io/WEB%20DESIGN/WEEK9/Tut8-pooja/tutorial.08/case4/browyer.htm
+/poojakatte.github.io/WEB%20DESIGN/WEEK10/tutorial.09/case4/astro.htm
+/poojakatte.github.io/WEB%20DESIGN/WEEK11/case4/birthday.htm
+poojakatte.github.io/WEB%20DESIGN/WEEK12/tutorial.11/rycheBooks.xml
+
+registration form 
+After entring the values in the fields  even if user close the browser or refresh the page,it should remember all the data that was previously entered. Add a Clear data button which will clear all the data
+/poojakatte.github.io/Practice/css3/CSS3_assignment_Q1.html
+
+registration form 
+While refreshing the page,it could remember the data but as soon as user close the page or browser it will remove all the data.
+/poojakatte.github.io/Practice/css3/CSS3_assignment_Q2.html
+
+Create a box using HTML5.With mouseover it should expand and on mouseout it should go back to its original position
+/poojakatte.github.io/Practice/css3/CSS3_assignment_Q5.html
+
+Prepare a Document With using Formatting Tags having background, with a center aligned Heading. (use paragraphs, line breaks… )
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q1.html
+
+Prepare a document using Links. When user clicks “Last Page” link, HTML page create for question no. 1 should open doc. in another window. When user clicks link 'See also Chapter 4', it should scroll to Chapter 4 and when user clicks link 'See also Chapter 10', it should scroll to Chapter 10.
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q2.html
+
+Create 2 frames. The navigation frame (links.htm) to the left contains a list of links with the second frame (content.htm) as a target.  When page is opened in the browser, left side frame should display links while the right side frame should display content.htm 
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q3.html
+
+Prepare a document using table, list, image 
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q4%20.html
+
+Prepare a document using Frames . Initially when the page gets loaded, the left hand frame will display a link 'Click here' & right hand frame will be blank. When user clicks the link in left frame, HTML file created will be loaded in right frame
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q5.html
+
+Design a Reservation Form 
+/poojakatte.github.io/Practice/html/HTML_Assignments_Q6.html
+
+Create a document to show an article 
+/poojakatte.github.io/Practice/html5/HTML5_Assignments_Q1.html
+
+Prepare a document to show article contents
+/poojakatte.github.io/Practice/html5/HTML5_Assignments_Q2.html
+
+
+Create a document to play an audio file  in such a  way that it will be auto played and start
+ again once reached to end.
+/poojakatte.github.io/Practice/html5/HTML5_Assignments_Q4.html
+
+Create a document  that will start playing video file, when asked  to play. 
+/poojakatte.github.io/Practice/html5/HTML5_Assignments_Q5.html
+
+Create a document that will show a caption to a figure.
+/poojakatte.github.io/Practice/html5/HTML5_Assignments_Q6.html
+
+Create a data entry form. Add multiple controls 
+Add a button called “Show stats” at the bottom. When user clicks this button, a message 
+should be displayed showing total no. of elements in the form as well as individual count of
+elements for each type 
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q1.html
+
+Using DOM create generate table
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q2.html
+
+Create a data entry form to fill order details of a company. User will enter customer name (textbox), item ordered (dropdown), quantity (textbox & number only) & order date. Allow user to enter upto 5 records on the page. 
+Using Javascript page redirection, send this data to another page. On this page, display all the details received in table format showing one order in one row.
+Date must be accepted in MM/DD/YYYY format
+User can submit single or multiple completed records i.e. customer name, item, quantity & order date for that record must be filled
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q3.html
+
+Create a page with 2 controls – 
+a dropdown showing time intervals (values 2,3,5 & 10 )
+a button “Show Time”
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q4.html
+
+Using DOM to manipulate table in Javascript
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q6.html
+
+Create a dynamic progress bar
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q8.html
+
+Write a JavaScript code to generate Kaprekar's constant no. 6174 
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q9.html
+
+Create a page to validate credit card no. using Luhn Algorithm. 
+Text box should not accept any character other than digit.
+Allow user to enter only 4 digits in these textboxes. 
+Display error message if user has entered less than 16 digits
+/poojakatte.github.io/Practice/javascript/Javascript_assignment_Q10.html
+
+
+Create a document to check entered password correct or not with following conditions
+Minimum 8 characters
+At least 1 Uppercase letters
+Lowercase letters
+At least 1 Number
+At least 1 Special character
+Display message text as Weak / Medium / Strong as per entered password.
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q2.html
+
+User Registration
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q3.html
+
+User Registration with disable /enable
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q4.html
+
+Display the X,Y Co-ordinates on Mouse Over of Div.
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q5.html
+
+Create a Color selection form with Auto complete functionality
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q6.html
+
+Create a Document to show Progress Bar Demo. Take following 2 buttons
+
+Start – it will start running progress bar and will show button title as Stop
+Reset – it will Reset progress bar again.
+(Stop – It will stop running progress bar.)
+/poojakatte.github.io/Practice/JQuery/Jquery_assignment_Q7.html
+
+Create a document to show Tab demo 
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q8.html 
+
+Create a Document with drop-down containing following effects
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q9.html
+
+Create a form containing four sections viz. Section 1, Section 2, Section 3, Section 4
+on click on any section it will expand/ collapse
+/poojakatte.github.io/Practice/JQuery/JQuery_assignment_Q10.html
+</body>
