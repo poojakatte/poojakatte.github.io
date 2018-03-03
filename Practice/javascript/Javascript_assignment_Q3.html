@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style43.css">
+<title>Validation:Alphabets,numbers,all records filled.Using Query String to generate table by form method and action</title>
+<script type="text/javascript" src="js3.js"></script>
+<script type="text/javascript" src="js33.js"></script>
+<style>
+#record{color:blue;}
+</style>
+</head>
+<body>
+<form name="orderform" method="GET" action="GenerateTable.html" id="orderform" onSubmit="return filled();">
+<table id="table1">
+<tr>
+<th></th>
+<th>Customer</th>
+<th>Item Ordered</th>
+<th>Quantity</th>
+<th>Ordered Date</th>
+</tr>
+<tr>
+<td id="record"> Record 1: </td>
+<td><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name" maxlength="5" />
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets are allowed</span>
+<td><select width="10" name="select1">
+ <option value=""> Select </option>
+  <option value="1">Item1</option>
+  <option value="2">Item2</option>
+  <option value="3">Item3</option>
+  <option value="4">Item4</option>
+  <option value="5">Item5</option>
+  <option value="6">Item6</option>
+  <option value="7">Item7</option>
+  <option value="8">Item8</option>
+ 
+</select></td>
+
+<td id="record"><input type="text" name="quantity"id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="5" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+<td><input type="text" name="date"   onchange="myFunction(this.value);" /></td>
+</tr>
+
+
+<tr>
+<td id="record"> Record 2: </td>
+<td ><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets are allowed</span>
+<td><select width="10" name="select1">
+<option value=""> Select </option>
+  <option value="1">Item1</option>
+  <option value="2">Item2</option>
+  <option value="3">Item3</option>
+  <option value="4">Item4</option>
+  <option value="5">Item5</option>
+  <option value="6">Item6</option>
+  <option value="7">Item7</option>
+  <option value="8">Item8</option>
+ 
+</select></td>
+
+<td><input type="text" name="quantity"id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="5"  /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text"  onchange="myFunction(this.value);" name="date" /></td>
+</tr>
+
+<tr>
+<td id="record"> Record 3: </td>
+<td><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets are allowed</span>
+<td id="record"><select width="10" name="select1">
+ <option value=""> Select </option>
+  <option value="1">Item1</option>
+  <option value="2">Item2</option>
+  <option value="3">Item3</option>
+  <option value="4">Item4</option>
+  <option value="5">Item5</option>
+  <option value="6">Item6</option>
+  <option value="7">Item7</option>
+  <option value="8">Item8</option>
+ 
+</select></td>
+
+<td ><input type="text" name="quantity"id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="5" /></td>
+<span id="error" style="color: Red; display: none" >* Input digits (0 - 9)</span>
+<td><input type="text" name="date"   onchange="myFunction(this.value);" /></td>
+</tr>
+
+
+<tr>
+<td id="record"> Record 4: </td>
+<td><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets are allowed</span>
+<td><select width="10" name="select1">
+<option value=""> Select </option>
+  <option value="1">Item1</option>
+  <option value="2">Item2</option>
+  <option value="3">Item3</option>
+  <option value="4">Item4</option>
+  <option value="5">Item5</option>
+  <option value="6">Item6</option>
+  <option value="7">Item7</option>
+  <option value="8">Item8</option>
+ 
+</select></td>
+
+<td><input type="text" name="quantity"id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="5" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text"  onchange="myFunction(this.value);" name="date" /></td>
+</tr>
+
+<tr>
+<td id="record"> Record 5: </td>
+<td><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets are allowed</span>
+<td><select width="10" name="select1">
+<option value=""> Select </option>
+  <option value="1">Item1</option>
+  <option value="2">Item2</option>
+  <option value="3">Item3</option>
+  <option value="4">Item4</option>
+  <option value="5">Item5</option>
+  <option value="6">Item6</option>
+  <option value="7">Item7</option>
+  <option value="8">Item8</option>
+ 
+</select></td>
+
+<td><input type="text" name="quantity"id="text1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="5" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text"  onchange="myFunction(this.value);" name="date" /></td>
+</tr>
+</table>
+
+<input type="Submit"  value="Submit">
+
+</form>
+</body>
+</html>

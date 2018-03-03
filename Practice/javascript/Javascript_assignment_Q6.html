@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js6.js"></script>
+<title>validation:Date,numeric,alphabets,previous records should be filled</title>
+</head>
+<body>
+
+
+
+<table id="myTable">
+<tr>
+<td>First Name</td>
+<td>Last Name</td>
+<td>Salary</td>
+<td>Date MM/DD/YYYY</td>
+</tr>
+<tr>
+<td ><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name" maxlength="10"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">* Only Alphabets allowed</span>
+<td ><input type="text" id="text2" onkeypress="return IsAlphaNumeric(event);" ondrop="return false;"
+        onpaste="return false;" name="name" maxlength="10"/>
+    </td>
+	<span id="error2" style="color: Red; display: none">*  Only Alphabets not allowed</span>
+<td><input type="text"  onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="10" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+<td><input type="text" name="date"   onchange="myFunction(this.value);" /></td>
+</tr>
+</table><br>
+
+<button onclick="addrow();">Add Row</button>
+
+
+
+</body>
+</html>

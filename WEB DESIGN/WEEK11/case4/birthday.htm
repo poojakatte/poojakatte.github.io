@@ -1,0 +1,63 @@
+<!-- New Perspectives on HTML and XHTML
+	Tutorial 10 Case Problem 4 
+	HappyBirthdayNews
+	Author: Pooja suresh katte
+	Date: 11/3/2016 
+  	Filename: birthday.htm
+        Supporting files: function.js,logo.jpg,modernizr.js,styles.css
+   -->
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 10
+      Case Problem 4
+
+      happy Birthday News
+      Author: Pooja Suresh katte
+      Date:   Date:   10/1/2016
+
+      Filename:        birthday.htm
+      Supporting files: modernizer-1.5.js
+      -->
+
+      <title>HappyBirthdayNews</title>
+
+      <script src="modernizr-1.5.js"></script>
+      <script src="functions.js" type="text/javascript"></script>
+     
+      <link href="styles.css" rel="stylesheet" />
+     
+
+   </head>
+
+   <body>
+      
+
+
+       <div id="PageWrapper">
+			<div id="TopBar">
+                <!--logo-->
+		         <img src="logo.jpg" id="imglogo" alt="logo"  />
+				
+			
+			</div>
+			
+			<div id="Content">
+				<!-- to print date and name-->
+                <script type="text/javascript">
+                var currentdate=showDate();
+                document.write("<p> Today is<br /> "+currentdate+"</p>")
+                var daynum=dayNumber();
+                //document.write("<p> daynumber "+daynum+"</p>")
+                var bdname=showBirthDay(daynum);
+                document.write("<p> Born today<br /> "+bdname+"</p>")
+                    </script>			
+				
+			</div>
+           <p class="ent"><u>Enter</u></p>
+		</div>
+</body>
+</html>

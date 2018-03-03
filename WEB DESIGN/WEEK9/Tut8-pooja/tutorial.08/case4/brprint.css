@@ -1,0 +1,91 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case 4
+
+   Print Styles
+   Author: Pooja Suresh katte
+   Date:   22/10/2016
+
+   Filename:  brprint.css
+   Supporting Files: 
+
+*/
+
+
+@page {
+   size: 8.5in 11in portrait;
+   margin: 0.5in;
+}
+
+/*hide*/
+nav, footer, #bkimg {
+   display: none;
+}
+
+
+article {
+   display: block;
+  
+   page-break-inside: avoid;
+}
+
+article h1 {
+   font-size: 28pt;
+   width: 100%;
+}
+
+
+address {
+	 font-size:20px;
+   font-style: normal;
+}
+
+p {
+   font-size: 14pt;
+   margin: 0in 0in 0.2in 0in;
+}
+
+
+table {
+   border-collapse: collapse;
+   border: 1px solid black;
+   page-break-after: always;
+}
+
+table th {
+   font-weight: normal;
+   text-align: left;
+   border: 1px solid black;
+   padding:2%;
+   text-indent:1%;
+}
+
+table td {
+   border: 1px solid black;
+   padding:2%;
+   text-indent:1%;
+}
+
+
+figure {
+   display: block;
+   text-align: center;
+   page-break-after: always;
+   page-break-inside: avoid;
+}
+
+
+figure img {
+	margin-top:20%;
+   width: 77%;
+}
+
+figure figcaption {
+   font-size: 20pt;
+}
+
+
+figure:last-of-type {
+   page-break-after: avoid;
+}

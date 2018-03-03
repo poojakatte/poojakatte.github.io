@@ -1,0 +1,111 @@
+.backg
+{
+ background-color: #787878;
+ padding-left:350px;
+padding-right:350px;
+width:100%;
+padding-bottom:350px;
+
+}
+table.tabstyle
+{
+ font-family:"Times New Roman", Times, serif;
+border-style: ridge;
+border-collapse:collapse;
+width:250px;
+height:200px;
+
+
+}
+table.tabstyle2
+{
+ border-color:red;
+border-style: solid;
+ padding: 10px;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+}
+table.tabstyle3
+{
+ font-family: "Times New Roman", Times, serif;
+border-style: ridge;
+border-collapse:collapse;
+width:250px;
+height:150px;
+
+
+margin-right:50px;
+
+}
+td.tdnoborder
+{
+ border:none;
+
+}
+td {
+   border-style: ridge;
+border-collapse:collapse;
+
+
+
+} 
+
+
+
+td.tdcell1
+{
+ text-align: center;
+ padding: 15px;
+} 
+
+td.tdcell2
+{
+ text-align: center;
+ padding-left: 60px;
+padding-right: 60px;
+} 
+
+td.tdcell3
+{
+ 
+ padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+
+} 
+td.content
+{
+background-color:#FFFF00;
+}
+td.image
+{
+background-color:#00FFFF;
+text-align: left;  
+}
+
+#straight li 
+{float: left; margin-right: 10px; margin-left: 10px; padding: 5px;}
+
+font.welcome
+{
+ font-style: italic;
+color:blue;
+text-align: left;
+font-weight:bold;
+display:block;
+}
+
+img.imgalign
+{
+ height: 100px;
+    width:60px ;
+ padding-top:20px;
+}
+
+span.spanmore{
+    display:block;
+    margin-bottom:40px;
+}
+
+

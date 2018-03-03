@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- New Perspectives on HTML and XHTML
+	Tutorial 9 Case Problem 4 
+	Maxwell Scientific 
+	Author: Pooja suresh katte
+	Date: 10/28/2016 
+  	Filename: eng.htm
+        Supporting files: mw.css,mwslogo.gif,astro.htm,chem.htm,elect.htm,physics.htm,eng1.jpg,eng2.jpg
+   -->
+<title>eng.htm</title>
+<link href="mw.css" rel="stylesheet" type="text/css"  />
+
+</head>
+<body>
+<div id="header">
+<img src="mwslogo.gif" id="headimg" alt="imglogos"/>
+</div>
+<div>
+	 <ul class="topnav">
+		<li><a href="astro.htm">Astronomy</a></li>
+		<li><a href="chem.htm">Chemistry</a></li>
+		<li><a href="elect.htm">Electronics</a></li>
+		<li><a style="background: black none repeat scroll 0% 0%; color: white;" href="#">Engineering</a></li>
+		<li><a href="physics.htm">Physics</a></li>
+	</ul>
+</div>
+<div id="main">
+<p><span style="font-weight:bolder;">ENGINEERING</span><br /><br />Spring is coming, and it's time for the annual toothpick bridge competition. Don't watch your bridges collapse! Instead come to Maxwell Scientific for high-quality materials and adhesives. Maxwell Scientific also provides educational material to teach basic engineering principles and help your students design the best structures. When it comes time to put those bridges to the test, look towards Maxwell Scientific for precision structure testers.
+</p>
+<img src="eng1.jpg"  alt="eng1" id="eng1"/>
+<img src="eng2.jpg"  alt="eng2" id="eng2"/>
+</div>
+
+<div id="comments">
+<h4>Comments From Our Engineering Customers</h4>
+
+<p>
+"Our science olympiad was the most successful one ever, thanks to your toothpick bridge kits. Thank you!"
+<br />R. Che. Bridgeport, CA </p>
+
+<p>"I just had to e-mail you to let you know what a big hit the History of Bridges video was with my third grade class. I now have a class of future engineers on my hands."
+<br />M. Rockwell. Milwaukee, WI</p>
+ 
+<p>"Everything said about your products proved to be true. It's made my science class a joy to teach."
+<br />O. Sanchez. Seattle, WA  </p>
+
+</div>
+<div id="feature">
+<h3>Featured Astronomical Products</h3>
+<table>
+<tr>
+<th>Feature</th>
+<th>Details</th>
+<th>Price &nbsp;&nbsp;($)</th>
+<th>Stock Number</th>
+</tr>
+
+<tr>
+<td>Digital Force Gauge</td>
+<td>Use this high-tech tool to accurately measure compression and tension up to 5000 grams. Four AA batteries required.
+</td>
+<td>$399.95</td>
+<td> DFG4-412 </td>
+</tr>
+
+<tr><td>Structure Tester</td> 
+<td>Designed specifically for toothpick bridge competitions, this tester features a sturdy metal stand with an adjustable bridge span connected to a load bucket. Loads can be adjusted by adding sand (not included).</td>
+<td>$159.95</td>
+<td>ST1-003</td>
+</tr>
+		
+<tr><td>Balsa Strips </td>
+<td>  March Special! Pack of 50 balsa strips (1/8"x1/8"x36") perfect for bridge competitions.</td>
+<td>$10.95</td> 
+<td>BS40-232</td>
+</tr>
+
+<tr>
+<td>Basswood Strips </td>
+<td>Pack of 50 basswood strips (1/8"x1/8"x24") perfect for bridge competitions.</td>
+<td>$15.95</td>
+<td>BS40-232</td>
+</tr>
+		
+<tr>
+<td>Timber Cutter </td>
+<td> A useful tool for precision cutting of 1/8" wooden sticks. The acrylic safety guard prevents finger injury. Miter marks can be used for making angle cuts. Contains five razor blades.</td> 
+<td>$19.95</td>
+<td>TC24-981</td> 
+</tr>
+
+<tr>
+<td>Bridge Video </td>
+<td>A fun and instructional video on the history, theory, and design of bridges. 28 minutes.</td>
+<td>$19.95</td> 
+<td>VI-322</td> 
+</tr>
+
+<tr>
+<td>Bond Adhesive</td>
+<td> Maxwell Scientific's special adhesive is perfect for toothbridge bridge and towers. It dries quickly, providing a rigid bond. Nontoxic.</td>
+<td>$5.95</td>
+<td>AD10-710</td>
+</tr>
+
+<tr>
+<td>Modeling Clay</td>
+<td>Maxwell Scientific's modeling clay is a smooth, firm clay with remarkable consistency to retain the shape into which it's molded. Nontoxic and nonhardening. Comes in five different colors.</td>
+<td>$9.95</td>
+<td>MC5-212 </td>
+</tr>
+</table>
+
+</div>
+<div class="addr">
+<address style="text-align: center">
+<span>Maxwell Scientific /</span>  
+ 205 East Nordheim Drive / Hapton, IL / 43129<br />
+Phone: (800) 555-2191 / Fax: (812) 555-2192 
+</address>
+
+<p style="text-align: center">
+
+
+<!-- web page validated as XHTML 1.0 Strict -->
+      <a href="http://validator.w3.org/check?uri=referer">
+      <img src="http://www.w3.org/Icons/valid-xhtml10"
+      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+</div>
+
+
+</body>
+</html>
+  

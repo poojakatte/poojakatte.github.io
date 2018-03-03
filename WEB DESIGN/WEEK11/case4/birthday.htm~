@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 10
+      Case Problem 4
+
+      happy Birthday News
+      Author: Pooja Suresh katte
+      Date:   Date:   10/1/2016
+
+      Filename:        birthday.htm
+      Supporting files: modernizer-1.5.js
+      -->
+
+      <title>HappyBirthdayNews</title>
+
+      <script src="modernizr-1.5.js"></script>
+      <script src="functions.js" type="text/javascript"></script>
+     
+      <link href="style.css" rel="stylesheet" />
+     
+
+   </head>
+
+   <body>
+<script type="text/javascript">
+var currentdate=showDate();
+document.write("<p> TODAY IS "+currentdate)
+</script>
+</body>
+</html>

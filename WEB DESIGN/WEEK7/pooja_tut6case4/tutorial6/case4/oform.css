@@ -1,0 +1,146 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 4
+
+  Millennium Computers
+   Author: Pooja Suresh katte
+   Date:   7/10/2016
+
+   Filename:  oform.css
+   Supporting files: 
+
+*/
+input {
+	padding:5px 7px;
+	border:1px solid #d5d9da;
+height:auto;
+	 border-radius:8px; 
+	
+	outline:0;
+}
+legend {
+	background-color: Yellow;
+	font-size: 14px;
+	color: Black;
+	margin: 5px 0px5px 0px;
+	text-indent: 10px;
+	width: 50%;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#additional{
+	width:75%;
+	margin-top:12px;
+	display:table-caption;
+	margin-left:9%;
+}
+.ltable
+{border:0;
+display:inline-block;
+float:left;
+margin-left:5%;
+margin-top:2%;
+}
+.rtable{
+	margin-top:2%;
+	border:0;
+display:inline-block;
+float:left;
+margin-left:5%;
+}
+.imgtable{
+	margin-top:1%;
+	margin-left:9%;
+}
+td{
+padding-bottom:6%;
+}
+.allbtn{
+	margin-left:35%;
+}
+input:focus:invalid {
+   background: rgb(255, 232, 233) url(stop.png) bottom right
+no-repeat;
+
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+}
+input:focus, select:focus, textarea:focus {
+   background-color: ivory;
+   border: 1px solid rgba(81, 203, 238, 1);
+}
+
+input:focus:valid {
+   background: rgb(220, 255, 220) url(go.png) bottom right
+   no-repeat;
+
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+}
+input[type=text]:hover, textarea:hover,.zip:hover,.phone:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  
+  
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+input[type=submit]:hover
+{
+	background-color:rgb(0,0,204);
+	color:yellow;
+}
+input[type=reset]:hover
+{
+	background-color:rgb(0,0,204);
+	color:yellow;
+}
+input[type=button]:hover
+{
+	background-color:rgb(0,0,204);
+	color:yellow;
+}
+input[type=submit]
+{
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:bolder;
+}
+input[type=reset]
+{
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:bolder;
+}
+input[type=button]
+{
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:bolder;
+	
+}
+footer {
+	width: 100%;
+	clear: left;
+   	color: white;
+	background-color: rgb(0, 0, 204);
+	font-size: 14px;
+	text-align: center;
+	padding-top: 8px;
+	margin-top:2%;
+	padding-bottom: 10px;
+}
+.icons {
+    margin-left:-90%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript" src="js10.js"></script>
+</head>
+<body onload="focusing();">
+
+<table>
+<tr>
+<td><input type="text" name="text1"id="num1" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="4" onKeyUp="check1()"/></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text" name="text2"id="num2" onKeyUp="check2()" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="4" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text" name="text3"id="num3" onKeyUp="check3()" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="4" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+
+<td><input type="text" name="text4"id="num4" onKeyUp="check(4);" onkeypress="return IsNumeric(event);" ondrop="return false;" onpaste="return false;" maxlength="4" /></td>
+<span id="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+</tr>
+</table>
+<button id="generate" onclick="validatecc();">Validate Credit Card no.</button>
+
+</body>
+</html>

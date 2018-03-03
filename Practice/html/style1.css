@@ -1,0 +1,37 @@
+h3.title
+{
+ font-size: 18px;
+    color: black;
+text-align: center;
+ 
+}
+.left{
+  font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+    width: 70%;
+    background-color:  	#C0C0C0;
+}
+
+h2.sub
+{
+ font-size: 16px;
+  color: black;
+ padding-left: 50px;
+}
+
+p.txrpara
+{
+ font-size: 14px;
+  text-align: justify;
+text-indent: 50px;
+font-weight: normal;
+}
+br.space
+{
+   display: block;
+
+
+}
+
+
+

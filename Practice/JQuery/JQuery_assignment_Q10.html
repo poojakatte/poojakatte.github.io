@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Accordion:collapse</title>
+	<link href="external/jquery-uia.css" rel="stylesheet">
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	
+	</style>
+</head>
+<body>
+
+
+
+<div class="ui-widget">
+	
+<!-- Accordion -->
+<div id="accordion">
+	<h3>Section 1</h3>
+	<div>JQuery is a javascript library.<br>With JQuery you select(query) HTML elements and perform "actions" on them.</br> Here are some examples of actions that can fail if functions are run before the document is fully loaded.</div>
+	<h3>Section 2</h3>
+	<div>hello I am in section 2</div>
+	<h3>Section 3</h3>
+	<div>Hello I am in section 3</div>
+	<h3>Section 4</h3>
+	<div>Hello I am in section 4</div>
+</div>
+
+
+
+
+<script src="external/jquerya.js"></script>
+<script src="external/jquery-uia.js"></script>
+<script>
+
+$( "#accordion" ).accordion({
+			collapsible: true
+		});
+
+
+</script>
+</body>
+</html>

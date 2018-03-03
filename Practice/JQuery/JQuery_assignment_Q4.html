@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+  	
+		<title>Validation: letters,phoneus,email,required fields</title>
+		<!--jQuery Library-->
+		
+		<link rel="stylesheet" type="text/css" href="JQuery_assignment_Q3.css" />		
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="JQuery_assignment_Q4.js"></script>		
+	
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+<link rel= "stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/pepper-grinder/jquery-ui.css"/>
+
+
+
+	</head>
+	
+	<body>
+	<form id="myform">
+	<div  >
+	    <h2>User Form Registration</h2>
+		<table>
+		<tr>
+		<td><label >First Name</label></td>
+		<td class="pad"><input type="text" id="falpha" name="falpha" class="en"/></td><td><label for="falpha" id="error" ></label></td>
+		</tr>
+		
+		<tr>
+		<td><label for="lalpha">Last Name</label></td>
+		<td class="pad"><input type="text" id="lalpha" name="lalpha" class="en"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="ualpha">User Name</label></td>
+		<td class="pad"><input type="text" id="ualpha" name="ualpha" class="en"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="dat">DOB (MM-DD-YY)</label></td>
+		<td class="pad2"><input type="text" id="datepicker" name="dat" class= "customDateValidator" /></td>
+		</tr>
+		
+		<tr>
+		<td><label for="email1">Email Address</label></td>
+		<td class="pad"><input type="email" name="email1" id="email1" class="en" /></td>
+		</tr>
+		
+		<tr>
+		<td><label for="field">Phone Number</label></td>
+		<td class="pad"><input type="text" name="field" id="field" class="en"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="country">Country</label></td>
+		<td class="pad">
+		<select id="country" name="country" class="en">
+		<option>Select</option>
+		<option>India</option>
+		<option>England</option>
+		<option>Argentina</option>
+		</select></td>
+		</tr>
+		
+		<tr>
+		<td><label for="gen">Gender</label></td>
+		<td class="pad"><input type="radio" name="gen" value="Male" class="en">Male<br>
+						<input type="radio" name="gen" value="Female" class="en">Female<br></td>
+		</tr>
+		
+		<tr>
+		<td><label for="hobbies">Hobbies</label></td>
+		<td class="pad"><input type="checkbox" name="hobbies" value="read" class="en">Reading</br>
+						<input type="checkbox" name="hobbies" value="dance" class="en">Dancing</br>
+						<input type="checkbox" name="hobbies" value="swim" class="en">Swimming
+						<br></td>
+		</tr>
+		</table>
+		<!--input type="submit" value="Submit" id="sub" class="en"/-->
+		</div>	
+			<input type="button" value="disable" id="tog" />
+		</form>
+
+	</body>
+</html>

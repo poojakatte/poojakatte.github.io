@@ -1,0 +1,21 @@
+.roundedCorner 
+{ 
+width:350px;
+height:200px;
+ border: solid 1px #555; 
+ text-align:center;
+ background-color: pink; 
+ box-shadow: 10px -10px 5px rgba(0,0,0,0.6); 
+ 
+
+ 
+ border-radius:25px; 
+ }
+ .insetShadow 
+ { width:350px;height:200px; 
+ border: solid 1px #555; 
+ background-color: red; 
+ box-shadow: inset 10px -10px 25px rgba(0,0,0,0.6); 
+  text-align:center;
+  border-radius:25px; 
+ }

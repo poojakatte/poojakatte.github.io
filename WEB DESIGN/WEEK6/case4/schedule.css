@@ -1,0 +1,52 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Case Problem 4
+
+   Schedule Table Style Sheet
+   Author: Pooja Suresh katte
+   Date:  01/10/2016
+
+   Filename:  schedule.css
+   Supporting Files: 
+
+*/
+/*table main class*/
+.scedule{
+width:95%;
+border-collapse: collapse;
+margin-left:2%;
+padding-top:2%;
+font-weight:bolder;
+background-color: ivory;
+border-style:dotted;
+}
+td{
+	padding-left:4px;
+}
+tr,td,th{
+	border:1px solid black;
+	vertical-align: bottom;
+	color:black;
+}
+.aligns{
+	color:black;
+	vertical-align: top;
+}
+.theading{
+	width: 14%; 
+   background-color: white;
+   
+}
+.tCols{
+	width: 5%;
+}
+#rooms{
+	color:black;
+}
+/*caption*/
+#tcaption{
+	margin-bottom: 10px;
+	caption-side: top; 
+   text-align: left;
+}

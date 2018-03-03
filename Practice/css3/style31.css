@@ -1,0 +1,63 @@
+.divbackg
+{
+
+    margin-top:40px;
+margin-left:20px;
+    width: 35%;
+    background-color: 	#D3D3D3;
+
+
+}
+h3.title
+{
+ font-size: 24px;
+    color: black;
+text-align: center;
+padding:none;
+
+font-weight:normal;
+ 
+}
+
+table.tabstyle
+{
+ font-family: "Times New Roman", Times, serif;
+ font-size: 12px;
+
+
+}
+
+
+td.pad
+{
+padding-left:20px;
+}
+
+
+
+input[type=text]
+{
+
+  
+
+    -moz-box-shadow:inset 2px 2px 5px white;
+    box-shadow:inset 2px 2px 5px white;
+    
+border-color:blue;}
+
+input[type=reset]
+{
+
+border-radius:5px;
+    -moz-box-shadow:inset 2px 2px 5px white;
+    box-shadow:inset 2px 2px 5px white;
+font-family: "Times New Roman", Times, serif;
+border-color:blue;}
+
+
+
+
+
+
+
+	

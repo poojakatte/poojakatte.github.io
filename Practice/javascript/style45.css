@@ -1,0 +1,44 @@
+#parsexmll
+{
+
+
+  margin-top:200px;
+  padding-left:10px;
+    padding-right:10px;
+ 
+  
+  
+}
+
+.a, .b, .c {
+    float: left;
+    height: 100%;
+    
+    width: 21%;
+
+}
+.a {
+    width: 40%;
+
+}
+.b {
+    width: 10%;
+  
+.c {
+    width: 50%;
+
+}
+.container {
+
+    width: 100%;
+    overflow: hidden;
+   
+.m
+{
+float:right;
+}
+table
+{
+margin-left: auto;
+margin-right: auto;
+}

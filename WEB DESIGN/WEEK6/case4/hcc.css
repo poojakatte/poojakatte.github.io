@@ -1,0 +1,119 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Case Problem 4
+
+   Hamilton Conference Center Style Sheet
+   Author: Pooja Suresh katte
+   Date:   1/10/2016
+
+   Filename:  hcc.css
+   Supporting files: 
+
+*/
+body{
+	font-size:0.9em;
+}
+/*for grey divs*/
+.greencolor{
+	
+	width:100%;
+	background-color: #ddd;
+	margin-bottom: 10px;
+	margin-top:25px;
+	box-shadow: 10px -10px 5px rgba(0,0,0,0.6); 
+	
+}
+/*navigation*/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+	background-color: rgb(86, 206, 184);
+	color:black;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight:bolder;
+}
+
+ul.pagination li a.active {
+    background-color: white;
+    color: #4CAF50;
+    border-radius: 5px;
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+.goto
+{
+	color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/*logo*/
+#imgdetail{
+	margin-left:3%;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+}
+#addr{
+	float:left;
+	margin-left:2%;
+	margin-top:2%;
+}
+
+
+#insidediv{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+.roomdesc{
+	width: 12%;
+   float: left;
+   margin-left: 1%;
+   margin-top: 32px;
+   padding-left:3%;
+   -moz-column-count: 1;
+  padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 1%;
+background-color: rgb(86, 206, 184);
+   
+}
+.capacity{
+	width: 15%;
+   float: left;
+   margin-left: 1%;
+   margin-top: 32px;
+   margin-bottom: 20px;
+  padding-left:3%;
+   background-color: rgb(86, 206, 184);
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 1%;
+ 
+	
+}
+.toreserve
+{
+	width: 56%;
+float: left;
+margin-left: 1%;
+margin-top: 32px;
+margin-bottom: 20px;
+padding-left: 3%;
+background-color: rgb(86, 206, 184);
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 1%;
+}

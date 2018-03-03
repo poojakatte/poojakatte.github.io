@@ -1,0 +1,52 @@
+
+body{
+	
+	font-family: 'Vollkorn', serif, Arial;
+	
+}
+
+
+p{
+	margin-bottom:15px;
+}
+		
+a{
+	color:#0073BF;
+	text-decoration:none;
+}
+		
+
+
+label{
+	margin-right:5px;
+}
+input {
+	padding:5px 7px;
+	border:1px solid #d5d9da;
+	box-shadow: 0 0 5px #e8e9eb inset;
+	width:250px;
+	font-size:1em;
+	outline:0;
+}
+
+#result{
+	margin-left:5px;
+}
+
+#register .weak{
+	color:#E66C2C;
+}
+
+#register .medium{
+	color:#2D98F3;
+}
+
+#register .strong{
+	color:#006400;
+}
+div
+{
+width:20px;
+height:10px;
+
+}

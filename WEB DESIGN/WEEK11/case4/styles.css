@@ -1,0 +1,44 @@
+/* New Perspectives on HTML and XHTML
+	Tutorial 10 Case Problem 4 
+	HappyBirthdayNews
+	Author: Pooja suresh katte
+	Date: 11/3/2016 
+  	Filename: styles.css
+        
+   */
+#PageWrapper
+{
+    background-color: yellow;
+    width:45%;
+    height:50%;
+    margin-left:27%;
+    padding:11px 5px 20px 2px;
+    margin-top: :5%;
+}
+#imglogo{
+    
+    margin-left: 10%;
+}
+#Content{
+    
+    background-color: #044c9f;
+    width:70%;
+    padding:5px 0px 5px 24px;
+    color:white;
+    font-weight: bolder;
+    margin-left:13%;
+    margin-top: 3%;
+    text-align: center;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 1px 1px 3px 14px rgba(135,151,199,1);
+-moz-box-shadow: 1px 1px 3px 14px rgba(135,151,199,1);
+box-shadow: 1px 1px 3px 14px rgba(135,151,199,1);
+}
+.ent
+{
+    color:#044c9f;
+    text-align: center;
+    font-weight: bolder;
+     font-family: Arial, Helvetica, sans-serif;
+}

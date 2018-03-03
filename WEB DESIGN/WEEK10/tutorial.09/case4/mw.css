@@ -1,0 +1,134 @@
+/* New Perspectives on HTML and XHTML
+	Tutorial 9 Case Problem 4 
+	Maxwell Scientific 
+	Author: Pooja suresh katte
+	Date: 10/28/2016 
+  	Filename: mw.css
+        Supporting files: wallpaper4.jpg
+   */
+body {
+	background-image: url(wallpaper4.jpg) ; 
+	background-size: 100%;
+	font-family: Monoco, sans-serif; 
+	margin: 0px 10px 0px 10px;
+	color:white;
+	
+	}
+#lft{
+float:left;
+width:85%;
+}
+#rght{
+float:left;
+width:13%;
+font-size:0.7em;
+margin-top:1%;
+}
+/*navigation*/
+ul.topnav {
+	 width:99%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	margin-top:1%;
+}
+
+ul.topnav li {float: left;margin-left:9%;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111; color:white;}
+
+ul.topnav li a.active {background-color: white;}
+
+ul.topnav li.right {float: right;}
+#headimg{
+	width:40%;
+	margin-left:28%;
+       margin-top:1%;
+}
+#main{
+	width:66%;
+	float:left;
+	margin-right:1%;
+        margin-top:1%;
+	text-align:justify;
+}
+
+#feature{
+	width:100%;
+	float:left;
+}
+.addr{
+float:left;
+width:90%;
+}
+address {
+			color: white; font-size: 0.9em;
+                     }
+address span {font-weight: bold;}
+table{
+border-collapse:collapse;
+}
+table td {
+   border: 1px solid white;
+   padding-left:1%
+  
+
+}
+table th{
+	 border: 1px solid white;
+   padding:1%;
+
+}
+#chem1{
+width:50%;
+
+}
+#chem2{
+width:45%;
+}
+#eng1
+{
+ width:45%;
+}
+#eng2{
+width:50%;
+}
+#comments {
+  position: relative;
+ width:30%;
+	float:left;
+  height: 40%;
+  border: 4px solid white;
+margin-top:1%;
+padding-left:1%;
+text-align:left;
+padding-right:1%;
+}
+#comments:after, #comments:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -9px;
+  right: 20px;
+  border-top: 10px solid white;
+  border-right: 2px solid white;
+  border-left: 10px solid transparent;
+}
+#comments:before {
+  bottom: -15px;
+  right: 16px;
+  border-top: 15px solid black;
+  border-right: 4px solid black;
+  border-left: 15px solid transparent;
+}

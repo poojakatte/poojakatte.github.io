@@ -1,0 +1,15 @@
+div.mouse-click
+{
+ width: 200px;
+ height:200px;
+ background-color:#FAAFBA;
+ margin: 50px;
+ border:1px solid;
+}
+div.mouse-xy
+{
+color:red;
+padding-left:100px;
+
+}
+

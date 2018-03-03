@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Using moment.js file to display current date,time</title>
+<link rel="stylesheet" type="text/css" href="JQuery_assignment_Q1.css">
+<script src="external/jquery/jquery-2.1.1.min.js">
+</script>
+<script src="external/jquery/moment.js">
+</script>
+<script>
+$(document).ready(function()
+{
+$("button").click(function()
+{
+var now = moment().format("dddd MMMM Do, YYYY, h:MM:ss A");
+$('#date').empty().append(now);
+})
+});
+</script>
+</head>
+<body>
+
+<button>Click me</button></br>
+<p id="date"></p>
+</body>
+</html>

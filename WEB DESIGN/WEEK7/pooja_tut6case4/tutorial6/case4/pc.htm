@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+<!--
+      New Perspectives on HTML and CSS
+      Tutorial 6
+      Case Problem 4
+
+      Millenium Computers
+      Author: Pooja suresh Katte
+      Date:   07/10/2016
+      Filename:pc.htm
+      Supporting files: oform.css,formsubmit.js,mclogo.jpg,hori2.png,offer2.jpg,mill.css
+   -->
+
+   </head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--<link rel="icon" type="image/png" href="logo.png"> <!--to set the icon on browser tab -->
+	<title>Millenium Computers</title>
+	<script type="text/javascript" src="modernizr-1.5.js"></script>
+	<!--jQuery Library-->
+		
+			
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!--<script src="external/jquery/jquery-2.1.1.min.js"></script>-->
+		
+	<!--<script src="external/jquery-validation-1.13.0/dist/jquery.validate.min.js"></script>-->
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<!--script src="external/jquery-validation-1.13.0/dist/additional-methods.min.js"></script>-->
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+
+<!--<script src="external/jquery-ui-1.8.18/jquery-ui-1.8.18/ui/minified/jquery-ui.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+<!--link rel= "stylesheet" href="external/jquery-ui-themes-1.8.18/jquery-ui-themes-1.8.18/themes/pepper-grinder/jquery-ui.css"></script>-->
+<link rel= "stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/pepper-grinder/jquery-ui.css"/>
+
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script type="text/javascript" src="formsubmit.js"></script>
+	<link rel="stylesheet" type="text/css" href="mill.css" />	
+        <link rel="stylesheet" type="text/css" href="oform.css" />		
+</head>
+<body>
+
+<form action="http://www.mill_computers.com/orders/process.cgi" method="post"  name="corder">
+	<div class="info">
+	<img src="mclogo.jpg" id="logo"></img>
+<img src="hori2.png" id="rightlogo"></img>
+
+	<table class="ltable">
+	
+		<tr>
+			<td><label>First Name: </label></td>
+			<td ><input name="fname" size="20"  type="text" required="required"></td>
+			</tr>
+		<tr>
+			<td><label>Last Name:</label> </td>
+			<td><input name="lname" size="20" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td><label>Street Address:</label> </td>
+			<td><input name="street" size="20" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td><label>City:</label> </td>
+			<td><input name="city" size="20" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td><label>State:</label> </td>
+			<td><input name="state" size="20" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td><label>Zip:</label> </td>
+			<td><input name="zip" size="20"  required="required" pattern="^\d{5}-\d{4}$" placeholder="    nnnnn-nnnn" class="zip"></td>
+		</tr>
+		<tr>
+			<td><label>Phone:</label> </td>
+			<td><input name="phone" class="phone" size="20" type="tel" required="required" placeholder="    nnn-nnn-nnnn" pattern="^\d{3}-\d{3}-\d{4}$">
+			</td>
+		</tr>
+		
+		</table>
+		<table class="rtable">
+		<tr>
+			<td><label class="">
+              Processor Speed  </label></td>
+              <td><select id="pSpeed" name="pSpeed">
+                 <option value="2.4 GHz">2.4 GHz</option>
+                 <option value="3.2 GHz">3.2 GHz</option>
+
+                 <option value="4.0 GHz" selected="selected">4.0 GHz</option>
+              </select></td>
+        </tr>
+		<tr>
+			<td><label class="">
+              Memory   </label></td>
+              <td><select id="mem" name="mem">
+                 <option value="1 GB">1 GB</option>
+                 <option value="2 GB" selected="selected">2 GB</option>
+
+                 <option value="4 GB">4 GB</option>
+                 <option valuelue="8 GB">8 GB</option>
+              </select></td>
+          </tr>
+		  <tr>
+			<td><label class="">
+              Monitor Size</label></td>
+             <td> <select id="monitor" name="monitor">
+                 <option value="15">15"</option>
+
+                 <option value="17" selected="selected" >17"</option>
+                 <option value="19">19"</option>
+                 <option value="21">21"</option>
+              </select></td>
+		  </tr> 
+          <tr>
+           <td><label class="">
+              Hard Drive</label></td>
+               <td><select id="hd" name="hd">
+
+                 <option value="240 GB">240 GB</option>
+                 <option value="500 GB">500 GB</option>
+                 <option value="750 GB" selected="selected">750 GB</option>
+                 <option value="1 TB">1 TB</option>
+              </select></td>
+           </tr>
+		   <tr>
+			 <td><label class="">
+				  DVD Burner </label></td>
+				  <td><span>
+					 <input type="radio" name="dvd" id="dvdyes">
+					 <label for="dvdyes">Yes</label>
+					 <input type="radio" name="dvd" id="dvdno">
+					 <label for="dvdno">No</label>
+				  </span></td>
+		   </tr>
+		   
+           <tr>
+             <td><label class="">
+              Tuner Card</label></td>
+              <td><span>
+                 <input type="radio" name="tuner" id="tuneryes">
+                 <label for="lanyes">Yes</label>
+                 <input type="radio" name="tuner" id="tunerno">
+                 <label for="lanno">No</label>
+              </span></td>
+			  </tr>
+           <tr>
+             <td><label class="">
+              Media Card Reader</label></td>
+              <td><span>
+                 <input type="radio" name="mcard" id="mcardyes">
+                 <label for="mcardyes">Yes</label>
+                 <input type="radio" name="mcard" id="mcardno">
+                 <label for="mcardno">No</label>
+
+              </span></td>
+			  </tr>
+		<tr colspan="2">
+			<td><input type="checkbox" id="warranty" name="warranty">
+           <label class=""> Yes, I want the 24-month extended warranty
+           </label></td>
+		</tr>
+		</table>
+		
+		<img src="offer2.jpg" class="imgtable">
+		
+		  
+		<fieldset id="additional">
+           <legend>Additional Information or Comments</legend>
+		   <textarea id="comments" name="comments" rows="10" cols="50">           </textarea>
+		   </fieldset>
+		   <br><br>
+		   <div class="allbtn">
+        <input type="submit" value="Send Order">
+        <input type="reset" value="Cancel Order" style="margin-left:5%;" onclick="ClearForm()">
+        <input type="button" value="Contact Me" style="margin-left:5%;">
+		</div>
+		</div>
+		<footer>
+		<address>
+
+		156 Washington Ave, Batavia, NY 14020
+		</address>
+		</footer>
+	</form>
+</body>
+</html>

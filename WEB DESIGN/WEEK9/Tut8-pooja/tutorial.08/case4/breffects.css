@@ -1,0 +1,65 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case 4
+
+   Special Effects style sheet
+   Author: Pooja Suresh katte
+   Date:   22/10/2016
+
+   Filename:         breffects.css
+   Supporting Files: 
+
+*/
+
+/*headings-text shadow*/
+section#main h1,figcaption {
+  color: rgb(0, 0, 127);
+  text-shadow: white 2px 2px 0px,
+               rgba(0, 0, 0, 0.9) 3px 5px 10px;
+}
+/*linear-gradient*/
+section#center,section.addrlist{
+   
+background: rgba(207,207,207,1);
+background: -moz-linear-gradient(45deg, rgba(207,207,207,1) 0%, rgba(0,0,0,1) 44%, rgba(191,191,191,1) 83%, rgba(232,232,232,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(207,207,207,1)), color-stop(44%, rgba(0,0,0,1)), color-stop(83%, rgba(191,191,191,1)), color-stop(100%, rgba(232,232,232,1)));
+background: -webkit-linear-gradient(45deg, rgba(207,207,207,1) 0%, rgba(0,0,0,1) 44%, rgba(191,191,191,1) 83%, rgba(232,232,232,1) 100%);
+background: -o-linear-gradient(45deg, rgba(207,207,207,1) 0%, rgba(0,0,0,1) 44%, rgba(191,191,191,1) 83%, rgba(232,232,232,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(207,207,207,1) 0%, rgba(0,0,0,1) 44%, rgba(191,191,191,1) 83%, rgba(232,232,232,1) 100%);
+background: linear-gradient(45deg, rgba(207,207,207,1) 0%, rgba(0,0,0,1) 44%, rgba(191,191,191,1) 83%, rgba(232,232,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#e8e8e8', GradientType=1 );
+}
+/*opacity*/
+#bkimg {
+   opacity: 0.20;
+   position: absolute;
+   top: 14%;
+   left: 0px;
+   z-index: 1;
+   width: 100%;
+  
+}
+/*box-showdow*/
+figure{
+	-moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+
+   -moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+   box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+/*3d rotate*/
+figcaption{
+-o-transform: rotate3d(50,35,56,52deg);
+   -moz-transform: rotate3d(50,35,56,52deg);
+   -webkit-transform: rotate3d(50,35,56,52deg);
+   -ms-transform:rotate3d(50,35,56,52deg));
+  transform: rotate3d(50,35,56,52deg);
+  
+  font-size:30px;
+}
+
+
+

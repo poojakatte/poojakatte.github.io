@@ -1,0 +1,85 @@
+.divbackg
+{
+
+    margin-top:40px;
+margin-left:20px;
+    width: 35%;
+    background-color: 	#D3D3D3;
+
+
+}
+h3.title
+{
+ font-size: 24px;
+    color: black;
+text-align: center;
+padding:none;
+
+font-weight:normal;
+ 
+}
+input.sub
+{ margin-top:5px;
+ margin-left:150px;
+ margin-bottom:5px;
+ font-family: "Times New Roman", Times, serif;
+ 
+}
+table.tabstyle
+{
+ font-family: "Times New Roman", Times, serif;
+ font-size: 12px;
+
+
+}
+
+#selectstyle{
+ width:170px;   
+}
+td.pad
+{
+padding-left:20px;
+}
+
+td.pad2
+{
+padding-left:20px;
+padding-top:10px;
+
+}
+
+input[type=text]
+{
+
+    color: blue;
+
+    -moz-box-shadow:inset 2px 2px 5px white;
+    box-shadow:inset 2px 2px 5px white;
+    
+border-color:blue;}
+
+input[type=submit]
+{
+
+border-radius:5px;
+    -moz-box-shadow:inset 2px 2px 5px white;
+    box-shadow:inset 2px 2px 5px white;
+font-family: "Times New Roman", Times, serif;
+border-color:blue;}
+
+select
+{
+ font-family: "Times New Roman", Times, serif;
+
+    -moz-box-shadow:inset 2px 2px 5px white;
+    box-shadow:inset 2px 2px 5px white;
+ background-color:white;
+border-color:blue;
+
+}
+
+
+
+
+
+	

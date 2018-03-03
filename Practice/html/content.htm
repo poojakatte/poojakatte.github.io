@@ -1,0 +1,244 @@
+<html>
+<head>
+
+<title>
+Link Demo
+</title>
+</head>
+
+<body>
+ <a id="#top">
+<p><font face="Verdana" size="2"><u>Standard (Preferred) Interface Specifications</u></font></p>
+ 
+<table border="0" cellPadding="0" cellSpacing="1" width="100%" height="330">
+<TBODY>
+  <tr>
+    <td width="17%" height="18"><font face="Verdana" size="2">Connectivity:&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="84%" height="18"><font face="Verdana" size="2">Network/Web connection</font></td>
+  </tr>
+  <tr>
+    <td width="17%" height="18"><font face="Verdana" size="2">Protocol:&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="84%" height="18"><font face="Verdana" size="2">TCP/IP sockets (using Minimum
+    Lower Layer Protocol)</font></td>
+  </tr>
+  <tr>
+    <td width="17%" height="18"><font face="Verdana" size="2">Record format:&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="84%" height="18"><font face="Verdana" size="2">HL7 Version 2.2 or 2.3</font></td>
+  </tr>
+  <tr>
+    <td width="17%" valign="top" height="268">&nbsp; <p><font face="Verdana" size="2">Methods
+    and examples:&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="84%" height="268"><font face="Verdana" size="2">Send/Receive real-time,
+    individual messages with acknowledgement of each message received before next message is
+    sent. Supported messages include those for ADT, billing/charges, orders/profiling, drug
+    formulary, and inventory control.&nbsp;</font> <p><font face="Verdana" size="2">Typically
+    one socket/port number is dedicated to messages being sent in the same direction (i.e.,
+    inbound/outbound) and to/from the same IP address (e.g., typically the same vendor).
+    Acknowledgements for received messages are transmitted back on the same socket/port they
+    were received on.</font></p>
+    <p><font face="Verdana" size="2">For example, at one facility, incoming ADT and incoming
+    order messages from the same CPOE vendor could share one socket, while outgoing billing
+    messages to that vendor (i.e., an IP address) would use a second socket. Outbound ADT and
+    order messages to an automated dispensing system vendor (i.e., a different IP address)
+    could share a third socket, while inbound charges from that vendor would use a fourth
+    socket/port number.</font></td>
+  </tr>
+</TBODY>
+</table>
+ 
+<p><a id="a1"><font face="Verdana" size="2"><u>Other options</u></font></p>
+ 
+<table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Charges/Billing</font></td>
+    <td width="80%"><font face="Verdana" size="2">Batch file (if TCP/IP protocol cannot be
+    used as above)</font></td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Record format:</font></td>
+    <td width="80%"><table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+      <tr>
+        <td width="100%"><font face="Verdana" size="2">HL7 version 2.2 or 2.3 &quot;batch
+        file&quot; format preferred; custom formats possible but less desirable&nbsp;</font></td>
+      </tr>
+</TBODY>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Method:</font></td>
+    <td width="80%"><table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+      <tr>
+        <td width="100%"><font face="Verdana" size="2">Batch file creation on network drive or
+        floppy disk</font></td>
+      </tr>
+</TBODY>
+    </table>
+    </td>
+  </tr>
+</TBODY>
+</table>
+ 
+<p><font face="Verdana" size="2"><u>Outgoing Message Types</u></font></p>
+ 
+<table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">ADT (patient data):</font></td>
+    <td width="80%"><font face="Verdana" size="2">Admit, transfer, discharge, update, cancel
+    admit, pre-admit, outpatient registration, outpatient pre-registration, outpatient
+    discharge, cancel discharge, inpatient-to-outpatient and outpatient-to-inpatient status
+    change, swap patients (beds), change Id (billing account number), and change patient ID
+    (medical record number). (e.g., typically received from admissions systems, sent to
+    automated dispensing systems, or sent to utilization review systems.)</font></td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Orders/profile:</font></td>
+    <td width="80%"><font face="Verdana" size="2">New order, discontinue order, hold order,
+    cancel hold, update order (e.g., typically received from CPOE systems, sent to automated
+    dispensing systems, or sent to utilization review systems.)</font></td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Formulary: </font></td>
+    <td width="80%"><font face="Verdana" size="2">Add medication, delete medication, update
+    medication</font></td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2">Billing:</font></td>
+    <td width="80%"><font face="Verdana" size="2">Charge and credit transactions (e.g.,
+    typically sent to other financial or accounting systems, or received from automated
+    dispensing systems)</font></td>
+  </tr>
+  <tr>
+    <td width="20%"><font face="Verdana" size="2"><a id="a2">Inventory control:</font></td>
+    <td width="80%"><font face="Verdana" size="2">Additions/removal from floor stock and usage
+    (charges/credits) transactions received from some automated dispensing systems can be used
+    by the interface to maintain floor stock inventory levels with some HOS applications.</font></td>
+  </tr>
+</TBODY>
+</table>
+ 
+<p align="left"><font face="Verdana" size="2">Our standard interface uses typical HL7
+Version 2.2 or 2.3 records, messages, fields, definitions and processing rules. This
+document will detail how we use HL7, particularly which messages are used and which fields
+are required/optional. Refer to documentation published elsewhere (i.e., the internet) for
+more general HL7 information.</font></p>
+ 
+<p><font face="Verdana" size="2">The remaining documentation is organized as follows: </font>
+ 
+<ul>
+  <li><font face="Verdana" size="2">General HL7 definitions and rules, as implemented by our
+    standard interfaces</font></li>
+  <li><font face="Verdana" size="2">HL7 Messages and their segment combinations, as supported
+    by our standard interfaces</font></li>
+  <li><font face="Verdana" size="2">Detailed information about each support segment, including
+    field descriptions and requirements </font></li>
+</ul>
+ 
+<p align="left"><font face="Verdana" size="2">General HL7 Definitions and Rules</font></p>
+ <a id="a3">
+<p align="left"><font face="Verdana" size="2"><u>Inbound and Outbound Messages</u></font></p>
+ 
+<p align="left"><font face="Verdana" size="2">In this document, the system transmitting a
+message may be referred to as the &quot;sender&quot; or
+&quot;sending/pitcher/pitching&quot; system and the system receiving and acknowledging the
+message as the &quot;receiver&quot; or &quot;receiving/catcher/catching&quot; system.
+Messages sent by an HOS interface may be referred to as &quot;outbound&quot; messages and
+those being received by an HOS interface may be referred to as &quot;inbound&quot;
+messages. Therefore, the terms &quot;inbound&quot; and &quot;outbound&quot; will refer to
+the direction of message travel from HOS's perspective.</font></p>
+ 
+<p align="left"><font face="Verdana" size="2"><u>HL7 Messages</u></font></p>
+ 
+<p align="left"><font face="Verdana" size="2">A &quot;message&quot; is considered the
+minimal unit of data transferred between systems using HL7. For example, an admission
+transaction would be sent as an HL7 &quot;ADT&quot; message. Messages are comprised of two
+or more &quot;segments&quot; that act as building blocks for each message. Messages are
+delimited by a &quot;start block&quot; (HEX 0b ...or... ASCII/decimal 11) and an &quot;end
+block&quot; (HEX 1c plus HEX 0d ...or.... ASCII/decimal 28 plus ASCII/decimal 13).</font></p>
+ 
+<table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"><font face="Verdana" size="2">Conceptual example:</font></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Hex 0b&gt;&lt;HL7 Message
+    segments&gt;&lt;Hex 1c&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+</TBODY>
+</table>
+ <a id="a4">
+<p align="left"><font face="Verdana" size="2"><u><a id="a4">HL7 Segments</u></font></p>
+ 
+<p align="left"><font face="Verdana" size="2">HL7 messages are comprised of several HL7
+segments. Examples of segments include: the &quot;message header segment&quot;,
+&quot;patient identification segment&quot;, &quot;pharmacy order segment&quot; and
+&quot;financial transaction segment&quot; segments, among many others. Each message is
+terminated by Hex 0d (decimal 13; the &quot;carriage return&quot; character).</font></p>
+ 
+<table border="0" cellPadding="0" cellSpacing="1" width="100%">
+<TBODY>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"><font face="Verdana" size="2">Conceptual example:</font></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Hex 0b&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Message header segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Event segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Patient Id segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Patient visit segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Diagnosis segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Allergy segment&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+  <tr>
+    <td width="10%"></td>
+    <td width="30%"></td>
+    <td width="60%"><font face="Verdana" size="2">&lt;Hex 1c&gt;&lt;Hex 0d&gt;</font></td>
+  </tr>
+</TBODY>
+</table>
+ 
+<p align="left"><font face="Verdana" size="2">Optional segments and fields will be
+enclosed in brackets [ ] e.g., [AL1] indicates that the allergy segment is optional. Some
+segments may, on an optional basis, be repeated within the message. Repeating message
+options will be displayed with curly brackets { }. For example, {AL1} indicates that the
+allergy segment may be repeated if needed. These may also be combined, e.g., [{AL1}]
+indicates the allergy segment is optional <b>and</b> that it may be repeated if
+needed.&nbsp;</font></p>
+ 
+<p align="left"><font face="Verdana" size="2">Some of the messages outlined below do not
+list all possible standard HL7 segments. These &quot;unlisted&quot; segments can be
+included within inbound HL7 messages, but will be ignored by the HOS interface. Unlisted
+segments are assumed to be optional, and will not be included in outbound transactions
+unless the vendor contacts HOS to make other arrangements.</font></p>
+
+
+ 
+</body>
+</html>

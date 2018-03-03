@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style31.css">
+<title>SessionStorage stores the data for only one session:used setItem getItem,removeItem</title>
+</head>
+<script language="javascript">
+function setSettings() {
+if (typeof(Storage) !== "undefined") {
+    try {
+        var fname = document.getElementById('fname').value;
+        var lname = document.getElementById('lname').value;
+		var email = document.getElementById('email').value;
+        var phno = document.getElementById('phno').value;
+       sessionStorage.setItem('fname',fname);
+
+		  sessionStorage.setItem('lname', lname);
+		  sessionStorage.setItem('email', email);
+		  sessionStorage.setItem('phno', phno);
+      
+    } catch (e) {
+        if (e == QUOTA_EXCEEDED_ERR) {
+            alert('Quota exceeded!');
+        }
+    }
+    } else {
+        alert('No session');
+    }
+}
+
+function applySetting() {
+    if (  sessionStorage.length != 0) {
+   
+    
+    document.getElementById("fname").value =   sessionStorage.getItem("fname");
+    document.getElementById("lname").value =   sessionStorage.getItem("lname");
+	 document.getElementById("email").value =   sessionStorage.getItem("email");
+    document.getElementById("phno").value =   sessionStorage.getItem("phno");
+    } else {
+      alert('no session');
+    }
+}
+
+function clearSettings() 
+{
+     sessionStorage.removeItem("fname");
+       sessionStorage.removeItem("lname");
+		sessionStorage.removeItem("email");
+        sessionStorage.removeItem("phno");
+		}
+</script>
+<body onload="applySetting()">
+<div class="divbackg">
+<form oninput="javascript:setSettings()">
+<h3 class="title">User Registeration Form</h3>
+<table class="tabstyle">
+<tr>
+<td><label>First name: </label></td>
+<td class="pad"><input type="text" id="fname" size=10 ><br></td>
+</tr>
+
+<tr>
+<td><label>Last name: </label></td>
+<td class="pad"><input type="text" id="lname" size=10 ><br></td>
+</tr>
+
+<tr>
+<td><label>Email: </label></td>
+<td class="pad"><input type="text" id="email" size=10><br></td>
+</tr>
+
+<tr>
+<td><label>Phone: </label></td>
+<td class="pad"><input type="text" id="phno" size=10><br></td>
+</tr>
+
+
+</table>
+
+
+<input onclick="clearSettings()" type="reset" value="Clear" />
+</form>
+</div>
+</body>
+</html>

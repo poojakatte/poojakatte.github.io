@@ -1,0 +1,51 @@
+table,td
+{
+border:5px ;
+border-style: ridge;
+border-collapse:collapse;
+border-color:white;
+text-align:center;
+}
+#progressbar{
+background-color: #DEB887;
+   width: 40%; /* Adjust with JavaScript */
+   height: 20px;
+  
+
+   }
+   .div1
+   {
+   width:100%;
+ 
+   }
+   .container
+   {
+      margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+
+   
+   }
+   
+   #container1, #container2 {
+    padding: 0 0 0 8%;
+    width: 100%;
+}
+.one {
+    width: 45%;
+    position: relative;
+    display:inline-block;
+}
+.two {
+    width: 45%;
+    position: relative;
+    display:inline-block;
+}
+.inside
+{background-color: #D2691E ;
+   width: 20%; /* Adjust with JavaScript */
+   height: 20px;
+ 
+
+}

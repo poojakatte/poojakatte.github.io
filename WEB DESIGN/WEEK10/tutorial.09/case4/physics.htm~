@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- New Perspectives on HTML and XHTML
+	Tutorial 9 Case Problem 4 
+	Maxwell Scientific 
+	Author: Pooja suresh katte
+	Date: 10/28/2016 
+  	Filename: physics.htm
+        Supporting files: mw.css,mwslogo.gif,astro.htm,chem.htm,elect.htm,eng.htm
+   -->
+<title>astro.htm</title>
+<link href="mw.css" rel="stylesheet" type="text/css"  />
+
+</head>
+<body>
+<div id="header">
+<img src="mwslogo.gif" id="headimg" alt="imglogos"/>
+</div>
+<div>
+	 <ul class="topnav">
+		<li><a href="astro.htm">Astronomy</a></li>
+		<li><a href="chem.htm">Chemistry</a></li>
+		<li><a href="elect.htm">Electronics</a></li>
+		<li><a href="eng.htm">Engineering</a></li>
+		<li><a style="background: black none repeat scroll 0% 0%; color: white;" href="#">Physics</a></li>
+	</ul>
+</div>
+<div id="main">
+<p><span style="font-weight:bolder;">PHYSICS<br /><br /></span>Newton deduced the principles of gravitation after seeing an apple fall. We don't sell apples, but we do sell wonderful physics kits to help you teach science in a fun and interesting way. Choose from some of the products below, or order one of our catalogs for a complete list.</p>
+
+<h3>Newton and the Apple</h3>
+
+<p>Okay, we all know the story of Isaac Newton getting hit in the head with the apple, but is this story true? Well, not exactly, but there's more truth to it than you might think.</p>
+
+<p>Newton grew up on a farm, where he certainly saw many apples fall from trees. As a young man, Newton recalled those apples and wondered whether the same force that causes apples to fall would account for the motion of the moon across the sky.</p>
+
+<p>Newton applied his newly-discovered mathematical technique, calculus (he called his technique fluxions) to the problem and deduced that, if his assumption was correct, the moon would orbit the Earth every 29.5 days. That's pretty close to the actual figure of 27.3 days.</p>
+
+<p>So, no, Newton did not get hit with an apple, but he did get hit with a pretty good idea - thanks to an apple.</p>
+</div>
+
+<div id="comments">
+<h4>Comments From Our Physics Customers</h4>
+
+
+<p>"When I said I was going to teach holography, everyone figured I had busted the budget. That was before they heard about your excellent hologram kit."
+<br />M. Roussiani. Bismark, ND </p>
+
+<p>"My second graders loved the gyroscopes! And - miracle of miracles - the gyroscopes survived the encounter."
+<br />M. Larson. Oak Park, IL </p>
+
+<p>"The laser kit was up to your usual excellent standards, and the enclosed lesson plans saved me a weekend's worth of work."
+<br />T. Barnett. Seattle, WA </p>
+</div>
+<div id="feature">
+<h3>Featured Astronomical Products</h3>
+<table>
+<tr>
+<th>Feature</th>
+<th>Details</th>
+<th>Price &nbsp;&nbsp;($)</th>
+<th>Stock Number</th>
+</tr>
+
+<tr>
+<td>Dr. Physics Videos</td>
+<td> Learn of the wonders of physics, with Dr. Physics! Each video covers an important topic in physics and general science. See our complete online catalog for specific titles and availability.</td>
+<td>$19.95</td>
+<td>varies</td>
+</tr>
+
+<tr><td>Marble Drop Roller Coaster</td> 
+<td>Nothing makes you experience the principles of force and motion like a good ride on a roller coaster. We don't ride sell ride tickets, but your students can experience some of the fun of roller coasters by building their own with this kit.</td>
+		<td>$59.95</td>
+		<td>MDR1-001</td>
+		</tr>
+		
+<tr><td>Polarizing Film </td>
+<td>March Special! Use this pack of general-purpose linear polarizing film to teach your students the principles of polarization and light waves. Each pack contains two 100mm x 200mm sheets.</td>
+		<td>$19.95</td> 
+		<td>PF2-001</td>
+</tr>
+
+<tr>
+<td>Laser Optics Kit.</td>
+<td>This kit includes more than 50 optical parts and accessories needed to demonstrate the principles of optics. A teacher's pack and a booklet of over 100 lesson plans is included.</td>
+<td>$229.95</td>
+<td>LK100-001 </td>
+</tr>
+	
+<tr>
+<td>Gravity Defying Bird</td>
+<td>This colorful bird with a 6" wing span balances upon its beak without toppling. An interesting and instructive object.</td> 
+<td>$5.95</td>
+<td>MIS24-056 </td> 
+</tr>
+
+<tr>
+<td>Newton's Cradle</td>
+<td> The classic toy for your desktop, these five steel balls are a great way to see Newton's laws of motion in action.</td>
+<td>$10.95</td> 
+<td>MI24-057</td> 
+</tr>
+
+<tr>
+<td>Hologram Kit</td>
+<td>An inexpensive approach to performing holography. This kit gives your students all they need to create their own holograms.</td>
+<td>$299.95</td>
+<td>HK03-001</td>
+</tr>
+
+<tr>
+<td>Physics Discovery Pack</td>
+<td>This pack contains three gyroscopes, 20 magnetics of various sizes, and three prisms for the study of optics </td>
+<td>$29.95</td>
+<td> MI24-072</td>
+</tr>
+</table>
+
+</div>
+<div class="addr">
+<address style="text-align: center">
+<span>Maxwell Scientific /</span>  
+ 205 East Nordheim Drive / Hapton, IL / 43129<br />
+Phone: (800) 555-2191 / Fax: (812) 555-2192 
+</address>
+
+<p style="text-align: center">
+
+
+<!-- web page validated as XHTML 1.0 Strict -->
+      <a href="http://validator.w3.org/check?uri=referer">
+      <img src="http://www.w3.org/Icons/valid-xhtml10"
+      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+</div>
+
+
+</body>
+</html>
+  

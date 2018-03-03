@@ -1,0 +1,26 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 4
+
+  Millennium Computers
+   Author: Pooja Suresh katte
+   Date:   7/10/2016
+
+   Filename:  mill.css
+   Supporting files: 
+
+*/
+#logo{
+width:51%;
+}
+#rightlogo{
+width:45%;
+}
+table{
+	font-size:14px;
+	
+}
+.info{
+	
+}

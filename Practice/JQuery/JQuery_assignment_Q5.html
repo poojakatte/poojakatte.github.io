@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+  	
+		<title>displaying co-ordinates inside an element by mousemove</title>
+		<!--jQuery Library-->
+		
+		<link rel="stylesheet" type="text/css" href="JQuery_assignment_Q5.css" />		
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="JQuery_assignment_Q3.js"></script>		
+	
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+</head>
+<body>
+<section>
+<div id="example2-xy" class="mouse-xy">MOUSE XY</div>
+<div id="example2" class="mouse-click"> MOUSE OVER AREA  </div>
+</section>
+<script language="Javascript">
+    $('#example2').mousemove(function(e){
+        var x = e.pageX - this.offsetLeft;
+        var y = e.pageY - this.offsetTop;
+        $('#example2-xy').html("(X=,Y=) : (" + x + "," + y + ")"); 
+    });
+</script>
+</body>
+</html>

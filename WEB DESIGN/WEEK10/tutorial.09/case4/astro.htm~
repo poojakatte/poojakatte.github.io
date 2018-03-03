@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- New Perspectives on HTML and XHTML
+	Tutorial 9 Case Problem 4 
+	Maxwell Scientific 
+	Author: Pooja suresh katte
+	Date: 10/28/2016 
+  	Filename: astro.htm
+        Supporting files: mw.css,mwslogo.gif,chem.htm,elect.htm,physics.htm,eng.htm
+   -->
+<title>astro.htm</title>
+<link href="mw.css" rel="stylesheet" type="text/css"  />
+
+</head>
+<body>
+<div id="header">
+<div id="lft"><img src="mwslogo.gif" id="headimg" alt="imglogos"/> </div>
+<div id="rght"><p><span  style="font-weight:bolder;"><u>Contact us:</u><br />Maxwell Scientific   
+ 205 East Nordheim Drive / Hapton, IL / 43129
+<br />Phone: (800) 555-2191 / Fax: (812) 555-2192 </span></p></div>
+</div>
+<div>
+	 <ul class="topnav">
+		<li><a style="background: black none repeat scroll 0% 0%; color: white;" href="#">Astronomy</a></li>
+		<li><a href="chem.htm">Chemistry</a></li>
+		<li><a href="elect.htm">Electronics</a></li>
+		<li><a href="eng.htm">Engineering</a></li>
+		<li><a href="physics.htm">Physics</a></li>
+	</ul>
+</div>
+<div id="main">
+<p><span style="font-weight:bolder;">ASTRONOMY<br /><br />Maxwell Scientific</span> provides a wide range of astronomical products perfect for classroom 
+demonstrations and projects. Choose from the finest equipment from Newton, DC Optics, and 
+StarVision.</p>
+
+<h3>Run the Messier Marathon</h3>
+
+<p>It's time for the annual Messier Marathon. Instead of lacing up their Nikes, amateur 
+astronomers will be hauling telescopes, star charts, and a hefty pot of coffee in an all-night 
+vigil hunting the Messier objects.</p>
+
+
+<p>Messier objects (such as M42-The Great Orion Nebula shown at right) are stellar objects, 
+	classified by astronomer Charles Messier in the 18th century, ranging from distant galaxies 
+	to star clusters to stellar nebula. March is the only month in the year in which all 110 
+	Messier objects are in the sky. Unfortunately, if you want to see all of them, you have to 
+	start looking right after sunset and continue until just before sunrise, hence 
+	the term, "marathon."</p>
+
+<p>Ironically, Charles Messier wasn't all that interested in his objects. He made the list in order 
+	to avoid seeing them. Messier was more interested in discovering new comets and these beautiful 
+	stellar objects were often mistaken for comets before Messier made his list.</p>
+</div>
+
+<div id="comments">
+<h4>Comments From Our Astronomy Customers</h4>
+
+<p>"Thank you for your excellent service. I purchased the Newton 3" refractor for our astronomy 
+	lab. The view of Saturn was an exciting moment for the entire class." 
+	<br />- D. Hillbert. San Jose, CA</p> 
+
+<p>"I appreciate the prompt delivery of the pack of star disks. Your company is a great boon to 
+	science teachers everywhere." <br />- S. Fawson. Cleveland, OH</p>  
+
+<p> "The MC5 Maksutov-Cassegrain was delivered as promised: on-time and at a great price. When 
+	it's time to get my next scope, I'll look to your company first." <br />- B. Davidman. Greely, CO</p> 
+</div>
+<div id="feature">
+<h3>Featured Astronomical Products</h3>
+<table>
+<tr>
+<th>Feature</th>
+<th>Details</th>
+<th>Price &nbsp;&nbsp;($)</th>
+<th>Stock Number</th>
+</tr>
+<tr>
+<td>Refractor Kit</td>
+<td>March Special! Learn about the science of optics by building 
+		your own 18" long, 3X refractor telescope.</td>
+		<td>$10.95</td>
+		<td>RK01-085</td>
+</tr>
+<tr><td>NightDisk</td> 
+<td>View the night sky for any night and time of the year with this 
+		attractive and useful star disk.</td>
+		<td>$19.95</td>
+		<td>ND25-100</td>
+		</tr>
+		
+<tr><td>Constellation Globe</td>
+<td> A beautiful two-way illuminated globe displaying the 
+		location of the constellations and various night sky objects.</td>
+		<td>$49.95</td> 
+		<td>CG13-810</td>
+</tr>
+
+<tr>
+<td>Star and Planet Locators</td>
+<td>A pack of 25 star and planet locators perfect for 
+classroom use.</td>
+<td>$29.95</td>
+<td>SL25-271</td>
+</tr>
+		
+<tr>
+<td>Rechargeable Red Flashlight</td>
+<td>A 4" rechargeable flashlight, employing a red 
+LED to preserve night vision.</td> 
+<td>$15.95</td>
+<td>RF02-421</td> 
+</tr>
+
+<tr>
+<td>Classroom Planetarium</td>
+<td> March Special! Planetarium kit projects more than 
+300 stars and constellations onto the ceiling or wall. Perfect for classroom use. Red star 
+flashlight included to point out individual stars.</td>
+<td>$34.95</td> 
+<td> CP21-789</td> 
+</tr>
+
+<tr>
+<td>Solar Mobile</td>
+<td>The sun and all nine planets are represented in this attractive 
+mobile. Mobile measures 4 feet across when assembled. Great for classroom demonstrations!</td>
+<td>$14.95</td>
+<td>SM4-411</td>
+</tr>
+
+<tr>
+<td>Solar Mobile Kit</td>
+<td>Kit includes 12 stryofoam shapes with wire and connecting 
+rods to create a hanging mobile of the solar system. Makes 20 mobiles. Instructions and 
+lesson plans included.</td>
+<td>$29.95</td>
+<td> SM5-411</td>
+</tr>
+</table>
+
+</div>
+<div class="addr">
+<address style="text-align: center">
+<span>Maxwell Scientific /</span>  
+ 205 East Nordheim Drive / Hapton, IL / 43129<br />
+Phone: (800) 555-2191 / Fax: (812) 555-2192 
+</address>
+
+<p style="text-align: center">
+
+
+<!-- web page validated as XHTML 1.0 Strict -->
+      <a href="http://validator.w3.org/check?uri=referer">
+      <img src="http://www.w3.org/Icons/valid-xhtml10"
+      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+</div>
+
+
+</body>
+</html>
+  

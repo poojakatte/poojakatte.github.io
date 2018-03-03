@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>canvas, drawing arcs,line,filling with color,adding colored strokes using javascript</title>
+<body>
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+
+ctx.arc(190,150,100,Math.PI*1,Math.PI*1.5,false);
+ctx.strokeStyle = "#000000";
+ctx.stroke();
+
+ ctx.lineTo(190, 150);
+ctx.strokeStyle = "#000000";
+ctx.stroke();
+
+ ctx.lineTo(90, 150);
+ctx.strokeStyle = "#000000";
+ctx.stroke();
+
+
+ctx.fillStyle = "rgb(255,0,255)";
+ctx.fill();
+ctx.closePath();
+
+
+
+</script> 
+
+</body>
+</html>

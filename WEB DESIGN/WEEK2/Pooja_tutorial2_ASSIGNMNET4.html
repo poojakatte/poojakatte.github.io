@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles4.css"><!-- CSS file-->
+	<script type="text/javascript" src="js4.js"></script> <!--javascript file-->
+	<script type="text/javascript" src="jquery-1.7.1.js"></script>
+	
+	<link rel="icon" type="image/png" href="thetempesticon.jpg"> <!--to set the icon on browser tab -->
+<title>THE TEMPEST</title>
+</head>
+<body>
+<div class ="headings">
+	<div class="head1" ><img src="the tempest.jpg" class = "logo" >
+	</div>
+	<div class="head2" > 
+	<img src="shakes.jpg" class = "shakes" width=70px height=70px />
+	<img src="byws.jpg" class = "shakes" />
+	</div>
+</div>
+<div>
+
+<button  style="background-color:transparent; border-color:transparent;"onclick="pagefunction1();" > 
+  <img src="theplay.jpg" height="35"/>
+</button>
+<button  style="background-color:transparent; border-color:transparent;" onclick="commentary();"> 
+  <img src="thecoommentary.jpg" height="35"/>
+</button>
+<button  style="background-color:transparent; border-color:transparent;" onclick="pagefunction2();" > 
+  <img src="thecast.jpg" height="35"/>
+</button>
+</div>
+<div class="thecast" id="thecastid">
+	<div class="ldiv">
+		<div id="changecharimg"><h1>Prospero</h1>
+			<img src="prospero.jpg" id = 'imgsize'/>
+		</div>
+	</div>
+	<div class="rdiv">
+		<div id="changechartxt">
+			<h2>The play's protagonist and Miranda's father. Usurped and exiled by his brother Antonio, the duke of Milan.</h2>
+		</div>
+	</div>
+	<div>
+
+	<ul class="pagination">
+	  <li>Prospero</a></li>
+	 
+	  
+	</ul>
+	</div>
+</div>  
+<div class="theplay" onclick="theplay()" id="theplayid">
+	<div id ="msg"></div>
+	<div id ="charpics">
+	
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px;margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+			<img src= "Alonso.jpg" class ="imgdetail" />
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Alonso</h2>
+		</div>
+	</div>
+</div>
+	
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px;margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+					<img src= "sebstian.jpg" class ="imgdetail" />
+
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Sebastian</h2>
+		</div>
+	</div>
+</div>
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px;margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+							<img src= "Gonzolo.jpg" class ="imgdetail" />
+
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Gonzolo</h2>
+		</div>
+	</div>
+</div>
+
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px; margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+						<img src= "Adrian.jpg" class ="imgdetail" />
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Adrian</h2>
+		</div>
+	</div>
+</div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px;margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+						<img src= "Fran.jpg" class ="imgdetail" />
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Francisco</h2>
+		</div>
+	</div>
+</div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="float:left; padding:2px;margin-bottom:10px;">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+<img src= "prospero.jpg" class ="imgdetail" />
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<h2>Prospero</h2>
+		</div>
+	</div>
+</div>
+
+		
+		
+		
+	</div>
+	<!--<p class="delayedText" style="display:none">ACT III</p>
+	<p class="delayedText" style="display:none">SCENE 3.</p>
+	<p class="delayedText" style="display:none">[Enter Alonso, Sebastian, Antonio, Gonzalo, Adrian, Francisco]</p>!-->
+</div>
+<div class="commentary" id="comt">
+	
+</div>
+
+</body>
+</html>
